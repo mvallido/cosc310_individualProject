@@ -4,12 +4,6 @@ The purpose of this project is to create a customer service chat bot agent which
 
 To develop this software, our team decided to work with the Agile Scrum SDLC. The rationale behind choosing Scrum is because we wanted to follow a model that allows the flexibility to monitor the software development as the project is being developed throughout the term. Utilizing Scrum will allow the team to provide feedback throughout any stage of the project and iterate accordingly.
 
-## API Implementation (Individual Project)
-- Wikipedia API
-    * The Wikipedia API is used to display a random Wikipedia article
-- Wolfram API
-    * The Wolfram API is used to pull current weather data at the users current location and display it
-
 ## Installation and Running the Chat Bot
 Either download this repository or clone it to your desired directory with 
 ```git clone https://github.com/mvallido/cosc310_team1_chatbot``` 
@@ -47,6 +41,14 @@ First, run:
 Then, run app.py to start the chat bot:
 ```python app.py```
 
+## API Implementation (Individual Project)
+The API's are called when ```python train.py``` is run and their responses are saved into the  ```intents.json``` file.
+
+- Wikipedia API
+    * The Wikipedia API is used to display a random Wikipedia article
+- Wolfram API
+    * The Wolfram API is used to pull current weather data at the users current location and display it
+    
 ## Conversation Flow (A3)
 ![image](https://user-images.githubusercontent.com/61817636/158088234-0a9e4185-52a1-454f-b4da-4a337ee09f65.png)
 
