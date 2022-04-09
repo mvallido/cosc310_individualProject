@@ -11,8 +11,8 @@ client = wolframalpha.Client(appID)
 res = client.query("What is the weather")
 answer = next(res.results).text
 
-wiki_req = ["What is the weather today","weather", "Todays weather"]
-wiki_res= [answer]
+wolf_req = ["What is the weather today","weather", "Todays weather"]
+wolf_res= [answer]
 
 def append_statistics(filepath, date, input, output):
 
@@ -28,4 +28,4 @@ def append_statistics(filepath, date, input, output):
     with open(filepath, 'w') as fp:
         json.dump(information, fp, indent=2)
 
-append_statistics('./intents.json', currentDate, wiki_req, wiki_res)
+append_statistics('./intents.json', currentDate, wolf_req, wolf_res)
