@@ -122,56 +122,6 @@
         "Your review has been saved! If you liked their service, you can specify you want James for your next visit. Would you like to discuss another product or service? Remember to type 'quit' to leave at any time?",
         "We have received your review! If you liked their service, you can specify you want John for your next visit. Would you like to discuss another product or service? Remember to type 'quit' to leave at any time?"
       ]
-    },
-    {
-      "tag": "04/08/2022_18:35:26",
-      "patterns": [
-        "Random wiki of the day",
-        "Can you link me to a random wiki",
-        "Wiki"
-      ],
-      "responses": []
-    },
-    {
-      "tag": "04/08/2022_18:38:25",
-      "patterns": [
-        "Random wiki of the day",
-        "Can you link me to a random wiki",
-        "Wiki"
-      ],
-      "responses": [
-        "'Category:University of Auckland'",
-        "'User talk:81.12.179.66'",
-        "'2009\u201310 Indonesia Super League U-21'",
-        "'User talk:41.236.210.230'",
-        "'User:Kiminatheguardian'"
-      ]
-    },
-    {
-      "tag": "04/08/2022_18:40:45",
-      "patterns": [
-        "Random wiki of the day",
-        "Can you link me to a random wiki",
-        "Wiki"
-      ],
-      "responses": [
-        "'Sachs Motorcycles'",
-        "'Lord of Lords'",
-        "'Category:Tourist attractions in Bourbon County, Kentucky'",
-        "'User talk:More Difference'",
-        "'Talk:Rikhan-e Yek'"
-      ]
-    },
-    {
-      "tag": "04/08/2022_18:40:46",
-      "patterns": [
-        "What is the weather today",
-        "weather",
-        "Todays weather"
-      ],
-      "responses": [
-        "temperature | 12 \u00b0C\nconditions | cloudy\nrelative humidity | 30% (dew point: -5 \u00b0C)\n(41 minutes ago)"
-      ]
     }
   ]
 }
